@@ -1,8 +1,6 @@
 import streamlit as st
 import requests
 
-response = requests.post('http://localhost:5001/chatbot', json={"input": "Hello!"})
-
 st.set_page_config(page_title="MindSupport - AI Mental Health Chatbot", page_icon="🧠", layout="centered")
 
 st.title("MindSupport: AI-Driven Mental Health Chatbot")
