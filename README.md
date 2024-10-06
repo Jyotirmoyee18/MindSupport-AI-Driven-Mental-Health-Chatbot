@@ -8,9 +8,6 @@ Welcome to **MindSupport**, an AI-powered chatbot designed to assist you in ment
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
-- [API Endpoints](#api-endpoints)
-- [Contributing](#contributing)
-- [License](#license)
 - [Contact](#contact)
 
 ## 🌟 Features
