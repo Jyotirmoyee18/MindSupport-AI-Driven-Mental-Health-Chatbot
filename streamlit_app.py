@@ -10,7 +10,7 @@ user_input = st.text_input("How are you feeling today?", max_chars=200)
 if st.button("Submit"):
     if user_input:
         try:
-            response = requests.post("http://localhost:5000/chatbot", json={"input": user_input})
+            response = requests.post("http://localhost:5001/chatbot", json={"input": user_input})
             if response.status_code == 200:
                 result = response.json()
                 st.write(f"Chatbot: {result['response']}")
